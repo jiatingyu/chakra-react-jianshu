@@ -1,0 +1,36 @@
+.otherWay {
+  width: 80%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  height: 20px;
+  position: relative;
+  margin-left: 10%;
+  text-align: center;
+  color: #b5b5b5;
+  margin-top: 3rem !important;
+  font-size: 12px;
+}
+.otherWay:after {
+  content: "";
+  display: block;
+  border-top: 1px solid #b5b5b5;
+  position: absolute;
+  top: 10px;
+  width: 60px;
+  right: 0px;
+  /* content: "";
+  border-top: 1px solid #b5b5b5;
+  display: block;
+  position: absolute;
+  width: 60px;
+  top: 5px; */
+}
+.otherWay:before {
+  content: "";
+  display: block;
+  border-top: 1px solid #b5b5b5;
+  position: absolute;
+  top: 10px;
+  width: 60px;
+  left: 0px;
+}
